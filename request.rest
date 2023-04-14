@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/users/2
+
+###
+DELETE  http://localhost:3000/api/users/2
+
+###
+PUT http://localhost:3000/api/users/3
+Content-Type: application/json
+
+{
+    "username": "Jhon Doe update",
+    "email": "jhon@jhon.jhon.update"
+}
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "username": "Use rundie",
+    "email": "use@use.use"
+}
